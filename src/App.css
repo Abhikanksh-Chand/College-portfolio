@@ -35,61 +35,112 @@ body {
   padding-right: 15px;
 }
 
-.intro{
-    height: 90vh;
-    width: 100%;
-    text-align: center;
-    padding-top: 15rem;
-
+.intro {
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 15rem;
 }
 
-.intro-text{
-    font-size: 4rem;
-  color: #A8DFF1;
+.intro-text {
+  font-size: 4rem;
+  color: #a8dff1;
 }
-.my-name{
-    color: #73b0cd  ;
-}
-
-.about-me{
-
-    margin: 20px 5rem auto;
-    height: 90vh;
-}
-.about-me-container{
-    display: flex;
-    
-}
-.about-me-img img{
-    width: 350px;
-    border-radius: 20px;
-}
-.about-me-content{
-    color: #A8DFF1;
-    display: flex;
-    font-size: 2rem;
-    align-items: center;
-    margin-left: 40px;
-    word-spacing: 1px;
-    
+.my-name {
+  color: #73b0cd;
 }
 
-.about-me-heading{
-    color: #73B0CD;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    line-height: 0.2rem;
+.about-me {
+  margin: 20px 5rem auto;
+  height: 90vh;
+}
+.about-me-container {
+  display: flex;
+}
+.about-me-img img {
+  width: 350px;
+  border-radius: 20px;
+}
+.about-me-content {
+  color: #a8dff1;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  margin-left: 40px;
+  word-spacing: 1px;
 }
 
-.my-skills{
-    height: 90vh;
-    /* text-align: center; */
+.about-me-heading {
+  color: #73b0cd;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  line-height: 0.2rem;
+  padding-bottom: 4rem;
 }
-.my-skills h1{
-    color: #73B0CD;
+
+.my-skills {
+  padding-top: 7rem;
+  height: 90vh;
+  /* text-align: center; */
 }
-.my-skills ul{
-   color: #A8DFF1;
-   /* text-align: center; */
+.my-skills h1 {
+  color: #73b0cd;
+  margin-left: 5rem;
+  font-size: 2.3rem;
+  padding-bottom: 25px;
+}
+.my-skills ul {
+  color: #a8dff1;
+  margin-left: 5.5rem;
+  font-size: 1.8rem;
+  /* text-align: center; */
+  line-height: 2.7rem;
+}
+
+.achievements{
+  margin: 0 2.5rem auto;
+  margin-left: 5rem;
+  height: 90vh;
+}
+.slides{
+  margin: 0 2.5rem auto;
+  height: 30vh;
+}
+
+.achievements h1{
+  color: #73b0cd;
+  text-align: center;
+}
+
+.achievements-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-basis: 33%;
+}
+
+.card-container{
+  width: 30%;
+  margin-top: 25px;
+  height: 250px;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 2px 2px rgb(139, 188, 210);
+  overflow: hidden;
+  background-color:  #3D7C98;
+}
+.card-header{
+  display: flex;
+  padding: 1.4rem;
+  /* text-align: center; */
+}
+
+.card-header h1{
+  margin-left: 5px;
+}
+
+.card-content{
+  padding: 0 2rem 2rem 2rem;
+  margin-top: 25px;
 }
