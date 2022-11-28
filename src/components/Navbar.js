@@ -2,9 +2,9 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="navbar-links">
-        <p>about</p>
-        <p>skills</p>
-        <p>projects</p>
+        <p>About</p>
+        <p>Skills</p>
+        <p>Projects</p>
         <p>Achivements</p>
       </div>
     </div>

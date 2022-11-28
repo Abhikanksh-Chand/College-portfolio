@@ -1,6 +1,8 @@
 // import Carousal from "./carousal";
 import Cards from "./cards";
 import hackerrank from "../assets/hackerrank.svg";
+import AWS from "../assets/aws.svg";
+import certificate from "../assets/certificate.png";
 
 function Achievements() {
   return (
@@ -23,13 +25,13 @@ function Achievements() {
           description="Completed Regex module on Hackerrank"
         />
         <Cards
-          img={hackerrank}
+          img={AWS}
           title="AWS Cloud Operations"
           description="Completed AWS Cloud Operations Certification Course"
         />
         <Cards
-          img={hackerrank}
-          title="Matlab Reinforcement Learning"
+          img={certificate}
+          title="Reinforcement Learning"
           description="Completed Matlab Reinforcement Learning Certification Course"
         />
         

@@ -7,22 +7,22 @@ function Projects() {
       <h1>MY PROJECTS</h1>
       <div className="projects-container">
         <Cards
-          img={hackerrank}
+          // img={hackerrank}
           title="Network Design for Banks"
           description="This project focuses on the design and implementation of a secure Bank network using Cisco Packet Tracer"
         />
         <Cards
-          img={hackerrank}
+          // img={hackerrank}
           title="Office Network Management"
           description="This project focuses on the design and implementation of a Office Network System using Cisco Packet Tracer"
         />
         <Cards
-          img={hackerrank}
+          // img={hackerrank}
           title="Tic Tac Toe using Min-Max Algorithm"
           description="Creating a automated tci tac toe mini game Using the Min-Max Algorithm"
         />
         <Cards
-          img={hackerrank}
+          // img={hackerrank}
           title="Hostel Seva"
           description="This project is about digitalizing hostel management
 systems by developing an automated customer care
