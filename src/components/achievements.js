@@ -9,34 +9,30 @@ function Achievements() {
       <div className="achievements-container">
         <Cards
           img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
+          title="Hackerrank Python"
+          description="Recieved 5 stars in python on Hackerrank"
         />
         <Cards
           img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
+          title="Hackerrank C++"
+          description="Recieved 5 stars in C++ on Hackerrank"
         />
         <Cards
           img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
+          title="Hackerrank Regex"
+          description="Completed Regex module on Hackerrank"
         />
         <Cards
           img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
+          title="AWS Cloud Operations"
+          description="Completed AWS Cloud Operations Certification Course"
         />
         <Cards
           img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
+          title="Matlab Reinforcement Learning"
+          description="Completed Matlab Reinforcement Learning Certification Course"
         />
-        <Cards
-          img={hackerrank}
-          title="hello"
-          description="Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the"
-        />
+        
       </div>
     </div>
   );

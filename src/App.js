@@ -6,6 +6,7 @@ import Intro from "./components/intro";
 import AboutMe from "./components/About-me";
 import MySkills from "./components/mySkills";
 import ACHIEVEMENTS from "./components/achievements";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <MySkills />
       <ACHIEVEMENTS />
+      <Projects />
 
     </div>
   );
