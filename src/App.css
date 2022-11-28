@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0px;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* #3D7C98
   #73B0CD
   #A8DFF1
@@ -30,6 +33,7 @@ body {
   align-self: center;
   justify-content: space-between;
   margin-left: auto;
+  margin-right: 5rem;
 }
 .navbar-links p {
   padding-right: 15px;
@@ -51,8 +55,10 @@ body {
 }
 
 .about-me {
-  margin: 20px 5rem auto;
-  height: 90vh;
+  margin: 0 5rem auto;
+  height: 95vh;
+  margin-top: 90px;
+
 }
 .about-me-container {
   display: flex;
@@ -82,6 +88,7 @@ body {
 .my-skills {
   padding-top: 7rem;
   height: 90vh;
+  margin-bottom: 70px;
   /* text-align: center; */
 }
 .my-skills h1 {
@@ -89,6 +96,7 @@ body {
   margin-left: 5rem;
   font-size: 2.3rem;
   padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .my-skills ul {
   color: #a8dff1;
@@ -109,7 +117,7 @@ body {
   margin-left: 5rem;
   height: 90vh;
   padding-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .slides{
   margin: 0 2.5rem auto;
@@ -184,4 +192,9 @@ border-top: 2px solid  #A8DFF1;
 width: 20%;
 display: flex;
 justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

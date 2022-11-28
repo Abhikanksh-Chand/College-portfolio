@@ -2,7 +2,7 @@ import aboutmeimg from "../assets/aboutmeimg.jpeg";
 
 function aboutMe() {
   return (
-    <div className="about-me">
+    <div className="about-me" id="about-me">
       <h1 className="about-me-heading">ABOUT ME</h1>
       <div className="about-me-container">
         <div className="about-me-img">

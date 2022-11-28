@@ -1,6 +1,6 @@
 function mySkills(){
     return(
-        <div className="my-skills">
+        <div className="my-skills" id="my-skills">
         <h1>MY SKILLS</h1>
         <ul className="skill-list">
             <li>C/C++</li>
