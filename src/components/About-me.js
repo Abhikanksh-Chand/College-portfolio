@@ -13,8 +13,8 @@ function aboutMe() {
           My Third Year Of B.tech CSE with specialization in Artificial
           Intelligence and Machine Learning, I Like To Code, I Enjoy Learning
           New Technologies And Implementing Them. Currently I Am Focused On Web
-          Development And Exploring New Things Like Blockchain. I Am Also Very
-          Interested In The Fields Like Electronics and Machine Learning.
+          Development And Machine Learning while also Exploring New Things Like Blockchain. I Am Also Very
+          Interested In The Fields Like Electronics.
         </div>
       </div>
     </div>
